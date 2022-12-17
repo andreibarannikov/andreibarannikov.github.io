@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #bddaff;
+  background-color: #0d9099;
 }
 .container {
   height: 450px;
@@ -18,7 +18,7 @@ body {
 .shapes {
   height: 250px;
   width: 250px;
-  background: linear-gradient(45deg, #b507a7, #fa80f0);
+  background: linear-gradient(45deg, #839631, #719b9c);
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -37,20 +37,20 @@ body {
   position: absolute;
   height: 300px;
   width: 550px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(108, 18, 126, 0.15);
   border: 2px solid rgba(255, 255, 255, 0.2);
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   border-radius: 8px;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 40px rgba(60, 117, 38, 0.08);
   cursor: pointer;
   overflow: hidden;
 }
 .card img {
   position: absolute;
   width: 300px;
-  filter: drop-shadow(0 0 20px rgba(26, 0, 68, 0.34));
+  filter: drop-shadow(0 0 20px rgba(11, 26, 32, 0.34));
   bottom: 0;
   left: 120px;
   transition: 0.5s;
@@ -67,13 +67,13 @@ body {
   transition: 0.5s;
 }
 .card h2 {
-  color: #1f0b50;
+  color: #113f11;
   text-transform: uppercase;
 }
 .card p {
   font-weight: 300;
   text-align: justify;
-  color: #261844;
+  color: #162220;
   line-height: 1.8;
   letter-spacing: 0.3px;
 }
