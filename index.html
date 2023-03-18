@@ -1,36 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glass Christmas Card</title>
-    <!-- Google Font -->
-    <link
-      <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
-      rel="stylesheet"  
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <title>&hearts; С праздником &hearts;</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png"  href="sources/favicon.png">
   </head>
+
   <body>
-    <div class="container">
-      <div class="shapes"></div>
-      <div class="card">
-        <img src="snowman-image.png" />
-        <div class="text-container">
-          <h2>Дорогие Натуля с Дедулей,С Новым годом</h2>
+    <div class="card">
+        <h1>С днем Матерей мама!</h1>
+        <p>
+          Я тебя очень очень люблю!
+          Нет мамы лучше чем ты
+          
+        </p>
+        <p>Ты самая лучшая в мире мама!</p>
+        <p>Котёнок</p>
+        <p>Я тебя люблю, жми скорее на сердечко</p>
 
-          </h2>
-          <p>
-           Дорогие Натуля с Дедулей, желаю вам очень хорошова рождества,
-
-           чтобы все желание исполнялись, С Новым годом!   Андрей 
-           
-            
-            
-          </p>
-        </div>
-      </div>
+        </p>
+        <p class="heart" onclick="showSlideshow()">&hearts;</p>
     </div>
+    <div id="fullscreen">
+      <button id="close-btn" onclick="exitFullScreen()">Close</button>
+      <img id="slideshow-image" src="">
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
